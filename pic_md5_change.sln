@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pic_md5_change", "图片变装器\pic_md5_change.csproj", "{D4C03C02-20FC-4426-B632-65D4545C940E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4C03C02-20FC-4426-B632-65D4545C940E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C03C02-20FC-4426-B632-65D4545C940E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C03C02-20FC-4426-B632-65D4545C940E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C03C02-20FC-4426-B632-65D4545C940E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E83AD65F-0964-4735-9932-7968FE9EFFF0}
+	EndGlobalSection
+EndGlobal
