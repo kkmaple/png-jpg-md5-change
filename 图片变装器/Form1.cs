@@ -51,7 +51,7 @@ namespace 图片变装器
                     byte[] b1 = null;
                     using (FileStream fs = f.OpenRead())
                     {
-                        byte[] b2 = new byte[1024*8*4];
+                        byte[] b2 = new byte[fs.Length];
                         ASCIIEncoding temp = new ASCIIEncoding();
 
                         while (fs.Read(b2, 0, b2.Length) > 0)
@@ -63,7 +63,7 @@ namespace 图片变装器
                     // Open the stream for writing.
                     using (FileStream fs = f.OpenWrite())
                     {
-                        byte[] info = 合并Byte数组(b1, System.BitConverter.GetBytes(new Random().Next(99)));
+                        byte[] info = 合并Byte数组(b1, System.BitConverter.GetBytes(new Random().Next(9)));
                         // Add some information to the file.
                         fs.Write(info, 0, info.Length);
                     }
